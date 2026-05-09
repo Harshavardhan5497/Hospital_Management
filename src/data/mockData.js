@@ -1,0 +1,176 @@
+// src/data/mockData.js
+
+export const doctors = [
+  {
+    id: 1,
+    name: 'Dr. Priya Sharma',
+    specialty: 'Cardiologist',
+    experience: '15 years',
+    education: 'MBBS, MD – AIIMS Delhi',
+    rating: 4.9,
+    reviews: 312,
+    available: true,
+    image: 'https://randomuser.me/api/portraits/women/44.jpg',
+    about: 'Expert in interventional cardiology with 15+ years of experience treating complex heart conditions.',
+    timings: 'Mon–Fri: 9AM – 1PM',
+  },
+  {
+    id: 2,
+    name: 'Dr. Arun Mehta',
+    specialty: 'Orthopedic Surgeon',
+    experience: '12 years',
+    education: 'MBBS, MS – CMC Vellore',
+    rating: 4.8,
+    reviews: 278,
+    available: true,
+    image: 'https://randomuser.me/api/portraits/men/32.jpg',
+    about: 'Specialized in joint replacement and sports injury rehabilitation.',
+    timings: 'Tue–Sat: 10AM – 2PM',
+  },
+  {
+    id: 3,
+    name: 'Dr. Sneha Patel',
+    specialty: 'Pediatrician',
+    experience: '10 years',
+    education: 'MBBS, DCH – KEM Mumbai',
+    rating: 4.9,
+    reviews: 405,
+    available: false,
+    image: 'https://randomuser.me/api/portraits/women/68.jpg',
+    about: 'Dedicated to child health and development with a compassionate approach.',
+    timings: 'Mon, Wed, Fri: 11AM – 3PM',
+  },
+  {
+    id: 4,
+    name: 'Dr. Rajiv Nair',
+    specialty: 'Neurologist',
+    experience: '18 years',
+    education: 'MBBS, DM – NIMHANS Bangalore',
+    rating: 4.7,
+    reviews: 189,
+    available: true,
+    image: 'https://randomuser.me/api/portraits/men/45.jpg',
+    about: 'Pioneer in deep brain stimulation and management of movement disorders.',
+    timings: 'Mon–Thu: 2PM – 6PM',
+  },
+  {
+    id: 5,
+    name: 'Dr. Kavita Rao',
+    specialty: 'Dermatologist',
+    experience: '9 years',
+    education: 'MBBS, MD – St. Johns Bangalore',
+    rating: 4.8,
+    reviews: 340,
+    available: true,
+    image: 'https://randomuser.me/api/portraits/women/26.jpg',
+    about: 'Specialist in cosmetic and clinical dermatology including laser treatments.',
+    timings: 'Wed–Sun: 10AM – 4PM',
+  },
+  {
+    id: 6,
+    name: 'Dr. Suresh Kumar',
+    specialty: 'General Surgeon',
+    experience: '20 years',
+    education: 'MBBS, MS – Madras Medical College',
+    rating: 4.6,
+    reviews: 221,
+    available: true,
+    image: 'https://randomuser.me/api/portraits/men/67.jpg',
+    about: 'Highly experienced in laparoscopic and minimally invasive surgeries.',
+    timings: 'Mon–Fri: 8AM – 12PM',
+  },
+];
+
+export const services = [
+  {
+    id: 1,
+    title: 'Emergency Care',
+    description: '24/7 emergency services with rapid response teams and state-of-the-art trauma facilities.',
+    icon: 'LocalHospital',
+    color: '#E53935',
+    features: ['24/7 Availability', 'Rapid Triage', 'Trauma Unit', 'Ambulance Services'],
+  },
+  {
+    id: 2,
+    title: 'Cardiology',
+    description: 'Advanced cardiac care including diagnostics, interventional procedures, and cardiac rehabilitation.',
+    icon: 'Favorite',
+    color: '#E91E8C',
+    features: ['ECG & Echo', 'Angioplasty', 'Heart Surgery', 'Cardiac Rehab'],
+  },
+  {
+    id: 3,
+    title: 'Neurology',
+    description: 'Comprehensive brain and nervous system care with advanced imaging and surgical expertise.',
+    icon: 'Psychology',
+    color: '#7C4DFF',
+    features: ['MRI & CT Scan', 'Stroke Care', 'Epilepsy Clinic', 'Memory Disorders'],
+  },
+  {
+    id: 4,
+    title: 'Pediatrics',
+    description: 'Specialized healthcare for infants, children, and adolescents in a child-friendly environment.',
+    icon: 'ChildCare',
+    color: '#00B0FF',
+    features: ['Newborn Care', 'Vaccinations', 'Growth Monitoring', 'Child Psychology'],
+  },
+  {
+    id: 5,
+    title: 'Orthopedics',
+    description: 'Expert care for bone, joint, and musculoskeletal conditions including minimally invasive surgery.',
+    icon: 'AccessibilityNew',
+    color: '#00C9A7',
+    features: ['Joint Replacement', 'Sports Injuries', 'Spine Surgery', 'Physiotherapy'],
+  },
+  {
+    id: 6,
+    title: 'Diagnostics',
+    description: 'Full-service laboratory and imaging with fast turnaround and digital report access.',
+    icon: 'Biotech',
+    color: '#F9A825',
+    features: ['Blood Tests', 'X-Ray & MRI', 'Pathology', 'Digital Reports'],
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Ananya Krishnan',
+    role: 'Patient – Cardiology',
+    text: 'The care I received was exceptional. Dr. Priya was thorough, compassionate, and explained everything clearly. The hospital is clean and well-organized.',
+    rating: 5,
+    image: 'https://randomuser.me/api/portraits/women/33.jpg',
+  },
+  {
+    id: 2,
+    name: 'Mohan Das',
+    role: 'Patient – Orthopedics',
+    text: 'After my knee replacement, I was back to walking within days. The physiotherapy team here is world-class. Highly recommend LifeCare Hospital!',
+    rating: 5,
+    image: 'https://randomuser.me/api/portraits/men/54.jpg',
+  },
+  {
+    id: 3,
+    name: 'Leela Venkat',
+    role: 'Parent – Pediatrics',
+    text: 'Dr. Sneha Patel is wonderful with children. My daughter was at ease immediately. The pediatric ward is colorful and very child-friendly.',
+    rating: 5,
+    image: 'https://randomuser.me/api/portraits/women/72.jpg',
+  },
+];
+
+export const stats = [
+  { label: 'Patients Served', value: '50,000+' },
+  { label: 'Expert Doctors', value: '120+' },
+  { label: 'Years of Excellence', value: '25+' },
+  { label: 'Specialties', value: '40+' },
+];
+
+export const departments = [
+  'All', 'Cardiology', 'Neurology', 'Pediatrics', 'Orthopedics', 'Dermatology', 'General Surgery',
+];
+
+export const timeSlots = [
+  '9:00 AM', '9:30 AM', '10:00 AM', '10:30 AM', '11:00 AM', '11:30 AM',
+  '2:00 PM', '2:30 PM', '3:00 PM', '3:30 PM', '4:00 PM', '4:30 PM',
+];
